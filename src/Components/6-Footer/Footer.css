@@ -1,0 +1,39 @@
+footer {
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    gap: 15px;
+    font-size: 24px;
+
+}
+
+footer .footer-container {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+a{
+    color: white;
+}
+
+.icons-footer {
+    background-color: #7e61e7;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.icons-footer:hover {
+    background-color: #5a3baf;
+    scale: 1.1;
+}
